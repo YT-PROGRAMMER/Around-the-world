@@ -38,6 +38,7 @@ const Country = () => {
               className="w-full object-cover"
               src={result?.flag?.large}
               alt="hj"
+              loading="lazy"
             />
             <div>
               <h1 className="mb-4 text-3xl font-extrabold lg:mb-7">
