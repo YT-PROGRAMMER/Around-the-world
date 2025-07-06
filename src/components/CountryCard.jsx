@@ -15,7 +15,9 @@ const CountryCard = ({ flag, name, population, region, capital }) => {
         <div className="ml-3 flex flex-col gap-2">
           <p>
             <span className="font-semibold">Population: </span>
-            <span className="font-light">{population}</span>
+            <span className="font-light">
+              {parseInt(population).toLocaleString()}
+            </span>
           </p>
           <p>
             <span className="font-semibold">Region: </span>
